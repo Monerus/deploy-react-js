@@ -1,0 +1,217 @@
+.contact {
+    background: #E5E5E5;
+    @media (max-width:1110px) {
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+        padding: 10px 10px;
+    }
+}
+.container {
+    max-width: 1110px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: auto;
+    @media (max-width:1024px) {
+        width: auto;
+        height: auto;
+        overflow: hidden;
+    }
+}
+.link {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    @media (max-width:1024px) {
+        padding-left: 2em;
+    }
+    b:after {
+        content: ' \003E';
+    }
+}
+.wrapper {
+    text-align: center;
+    margin-top: 40px;
+    @media (max-width:1024px) {
+        display: grid;
+    }
+    h1 {
+        font-weight: 300;
+        color: black;
+        @media (max-width:1024px) {
+            margin: auto;
+            font-weight: 700;
+            align-items: center;
+        }
+    }
+}
+.info {
+    margin-top: 40px;
+    width: 263px;
+    height: 404px;
+    border-radius: 10px;
+    background: #FFF;
+    gap: 20px;
+    display: grid;
+    @media (max-width:430px) {
+        width: 410px;
+    }
+    @media (max-width:375px) {
+        width: 355px;
+    }
+}
+.content {
+    align-items: center;
+    display: flex;
+    gap: 20px;
+    @media (max-width:1024px) {
+        display: grid;
+    }
+    p {
+        font-weight: 300;
+    }
+}
+.map {
+    margin-top: 40px;
+    cursor: pointer;
+    @media (max-width:1024px) {
+        width: auto;
+        height: auto;
+    }
+}
+.mapImg {
+    @media (max-width:885px) {
+        width: 95%;
+        border-radius: 10px;
+        height: 250px;
+    }
+}
+.number {
+    padding-left: 30px;
+    padding-top: 18px;
+    text-align: left;
+    border-bottom: solid 1px #ebe5ea;
+    h1 {
+        padding-top: 5px;
+        font-size: 16px;
+        font-weight: 700;
+    }
+    @media (max-width:375px) {
+        padding-left: 20px;
+    }
+}
+.job {
+    padding-left: 30px;
+    text-align: left;
+    h1 {
+        padding-top: 5px;
+        font-size: 16px;
+        font-weight: 700;
+    }
+    @media (max-width:375px) {
+        padding-left: 20px;
+    }
+}
+.mail {
+    padding-left: 30px;
+    text-align: left;
+    border-bottom: solid 1px #ebe5ea;
+    h1 {
+        padding-top: 5px;
+        font-size: 16px;
+        font-weight: 700;
+    }
+    @media (max-width:375px) {
+        padding-left: 20px;
+    }
+}
+.adress {
+    padding-left: 30px;
+    text-align: left;
+    border-bottom: solid 1px #ebe5ea;
+    h1 {
+        padding-top: 5px;
+        font-size: 16px;
+        font-weight: 700;
+    }
+    @media (max-width:375px) {
+        padding-left: 20px;
+    }
+}
+.form {
+    margin-top: 20px;
+    height: auto;
+    width: auto;
+    background: #FFF;
+    border-radius: 10px;
+    @media (max-width:430px) {
+        width: 410px;
+        font-size: 24px;
+        font-weight: 600;
+    }
+    h1 {
+        text-align: center;
+        padding-top: 20px;
+        color: black;
+        font-weight: 300;
+        font-size: 20px;
+        @media (max-width:985px) {
+            width: 100%;
+            padding: 10px;
+            font-size: 24px;
+            font-weight: 600;
+        }
+        @media (max-width:375px) {
+            width: 85%;
+        }
+    }
+}
+.left_block {
+    input {
+        width: 327px;
+        height: 40px;
+        border-radius: 5px;
+        background: #FAFAFA;
+        padding: 10px;
+        font-size: 18px;
+        @media (max-width:375px) {
+            width: 300px;
+        }
+    }
+}
+.left {
+    display: grid;
+    gap: 10px;
+}
+.right_block {
+    input {
+        width: 703px;
+        height: 146px;
+        border-radius: 5px;
+        background: #FAFAFA;
+        padding: 10px;
+        font-size: 18px;
+        @media (max-width:985px) {
+            width: 90%;
+        }
+        @media (max-width:375px) {
+            width: 300px;
+        }
+    }
+}
+.form_container {
+    display: flex;
+    gap: 10px;
+    margin-left: 30px;
+    margin-top: 40px;
+    @media (max-width:430px) {
+        width: 90%;
+        display: grid;
+    }
+}
+.btn {
+    width: 222px;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-left: 53em;
+}

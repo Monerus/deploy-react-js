@@ -1,0 +1,116 @@
+.container {
+    max-width: 1190px;
+    margin: auto;
+    display: flex;
+    gap: 40px;
+    padding-top: 100px;
+    flex-wrap: wrap;
+    @media (max-width: 430px) {
+        display: grid;
+        padding-top: 70px;
+        padding: 15px 15px;
+    }
+    @media (max-width:375px) {
+        padding: 15px 0px;
+    }
+
+}
+.step {
+    margin-top:10px;
+    margin-bottom: 50px;
+    position: relative;
+}
+.back {
+    position: absolute;
+    top: -300px;
+    @media (max-width: 430px) {
+        display: none;
+    }
+}
+.backTwo {
+    position: absolute;
+    top: 20px;
+    @media (max-width: 430px) {
+        display: none;
+    }
+}
+.text{
+    position: absolute;
+    left: 43%;
+    @media (max-width: 430px) {
+        left: 2em;
+        margin-top: -60px;
+    }
+    b {
+        color: green;
+        font-weight: 700;
+        @media (max-width: 430px) {
+        font-size: 32px;
+        }
+        @media (max-width: 375px) {
+            font-size: 18px;
+        }
+
+    }
+    h1 {
+        color: brown;
+        font-weight: 400;
+        @media (max-width: 430px) {
+            font-size: 32px;
+            font-weight: 300;
+        }
+    }
+}
+/* .img {
+    @media (max-width: 430px) {
+        width: 70%;
+    }
+    @media (max-width: 375px) {
+        width: 10%;
+    }
+} */
+.one, .two, .free, .four{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    @media (max-width: 430px) {
+        display: grid;
+       gap: 50px;
+       img {
+        margin-left: 8em;
+       }
+    }
+    @media (max-width: 375px) {
+        img {
+            margin-left: 7em;
+           }
+    }
+}
+.one_text, .two_text, .free_text, .four_text{
+    display: grid;
+    gap: 15px;
+    width: 400px;
+    @media (max-width: 430px) {
+        display: grid;
+        text-align: center;
+    }
+    h1 {
+        color: green;
+        font-weight: 800;
+    }
+    @media (max-width: 375px) {
+        font-size: 14px;
+    }
+    p {
+        font-size: 13px;
+        @media (max-width: 430px) {
+            font-size: 18px;
+            text-align: center;
+        }
+        @media (max-width: 375px) {
+            width: 355px;
+            font-size: 20px;
+            padding-left: 1em;
+        }
+    }
+}

@@ -1,0 +1,66 @@
+.login {
+    background: #E5E5E5;
+    margin: auto;
+    height: 600px;
+    padding-top: 100px;
+    text-align: center;
+    background-image: url('../images/main.png');
+    h2 {
+        font-weight: 200;
+    }
+    button {
+        color: #fff;
+        font-size: 18px;
+    }
+    a {
+        color: #FFF;
+    }
+}
+.container {
+    width: 357px;
+    height: 313px;
+    border-radius: 10px 10px 0 0;
+    background: #FFF;
+    margin: auto;
+}
+.content {
+    margin-top: 10px;
+    gap: 20px;
+    display: grid;
+    input {
+        width: 296px;
+        height: 40px;
+        background: #FAFAFA;
+        border: none;
+        border-radius: 10px;
+        margin: auto;
+        font-weight: 500;
+        font-size: 18px;
+        padding: 0 10px;
+    }
+}
+.text {
+    font-weight: 700;
+    padding: 20px;
+}
+.register {
+    width: 200px;
+    height: 50px;
+    margin-top: 36px;
+    background: #a88686;
+    border-radius: 0 10 0 10px;
+    border: #FFF solid 1px;
+    float: right;
+}
+.btn {
+    display: flex;
+}
+.sign {
+    width: 200px;
+    height: 50px;
+    margin-top: 36px;
+    background: #a88686;
+    border-radius: 0 0 0 10px;
+    border: #FFF solid 1px;
+    float: left;
+}

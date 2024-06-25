@@ -1,0 +1,36 @@
+.content {
+    height: auto;
+    margin-bottom: 50px;
+    @media (max-width:777px) {
+        width: 70%;
+        display: none;
+        }
+}
+.wrapper {
+    margin: auto;
+    justify-content: space-between;
+    width: 1110px;
+    @media (max-width:777px) {
+    display: none;
+    }
+}
+.test {
+    display: flex;
+    gap: 100px;
+    padding-top: 40px;
+    @media (max-width:777px) {
+    display: none;
+    max-width: 777px;
+    height: auto;
+    margin: auto;
+    gap: 10px;
+    flex-wrap: wrap;
+    }
+}
+.img {
+    width: 100%;
+    @media (max-width:777px) {
+        width: 70%;
+        display: none;
+        }
+}

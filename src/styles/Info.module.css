@@ -1,0 +1,19 @@
+.info {
+    max-width: 100%;
+    height: auto;
+    background: #F0F0F0;
+    padding-bottom: 40px;
+    @media (max-width: 430px) {
+        padding-top: 30px;
+    }
+}
+.container {
+    max-width: 1110px;
+    margin: auto;
+    padding-top: 3.5em;
+    align-items: center;
+    font-size: 18px;
+    @media (max-width: 430px) {
+        padding: 15px 20px;
+    }
+}
